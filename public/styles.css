@@ -1,0 +1,225 @@
+.carousel-item{
+    height: 42rem;
+    background-color: rgb(19, 16, 45);
+    color: white;
+    position: relative;
+    
+}
+
+.slider-container{
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+
+}
+
+.header-btn{
+    margin-top: 30px !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: white !important;
+    border-radius: 2px !important;
+    
+}
+
+.scnd-btn {
+    margin-top: 30px !important;
+    color: rgb(19, 16, 45) !important;
+    border-color: rgb(19, 16, 45) !important;
+    border-radius: 2px !important;
+    
+}
+
+.slider-overlay-image{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+
+.nav-pos{
+    position: absolute;  
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.image-text{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.nav-link{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: white;
+}
+
+
+.player-img{
+    height: 32rem;
+    color: white;
+    position: relative;
+    background-color: rgb(19, 16, 45);
+    
+    
+}
+
+.player-image{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    
+
+}
+
+.play-icon{
+    position: absolute;
+    left: 50%;
+    
+    top: 50%;
+    
+    transform: translate(-50%,-50%);
+    margin: auto;  
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* --------------------------------------------------------- */
+.expertise{
+    position: relative;
+    padding-top: 10vh !important;
+    padding-bottom: 10vh !important;
+}
+
+.card-exp{
+    border-radius: 0px !important;
+    border-color: rgb(237, 237, 237) !important;
+}
+
+@media screen and (max-width:800px) {
+    .card-exp{
+        border: 1px !important;
+        border-color: rgb(237, 237, 237) !important;
+
+    }
+}
+
+i{
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.card-title{
+    margin-top: 40px;
+}
+
+p{
+    color: rgb(119, 119, 119);
+    margin-top: 30px;
+}
+
+.team{
+   
+    color: white;
+    position: relative;
+    background-color: rgb(19, 16, 45);
+    
+    
+}
+
+.people-card{
+     
+    
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 0 !important;
+   
+}
+
+.people-card-body{
+    
+    color:white !important;
+    
+    
+}
+
+.gal-btn-cont{  
+    display: grid;    
+}
+
+.gal-btn{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px !important;
+}
+
+.input-box{
+    border-radius: 0 !important;
+    margin-top: 30px;
+}
+
+.logo-img{
+   width: 60%;  
+}
+
+.footer-container{
+
+    color: white;
+    position: relative;
+    background-color: rgb(19, 16, 45);
+    
+}
+
+.footer-bg{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.subscribe{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 0px !important;
+}
+
+.btn-sub{
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-radius: 0px !important;
+    height: 38px !important;
+    
+}
+
+.testimonial{
+    background-color: rgba(0, 0, 0, 0) !important;
+   
+}
+
+.slider-container-test{
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+
+}
